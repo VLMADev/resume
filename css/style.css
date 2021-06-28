@@ -1,29 +1,82 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Lato', sans-serif;
 }
-ul, li{list-style: none;}
+ul,
+li {
+  list-style: none;
+}
 body {
-    height: 100%;
-    width: 100%;
-    font-size: 100%;
-    line-height: 1;
-    font-size: 18px;
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 18px;
 }
-a {text-decoration: none;}
-h1, h2, h3, h4, h5, h6 {
-    font-size: inherit;
-    font-weight: 400;
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
 }
 
 .contener {
-    max-width: 1280px;
-    margin: 0 auto;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 h1 {
-    font-size: 32px;
-    font-weight: 600;
-    text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin: 30px 0px 20px 0px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.header-section {
+  background-color: aqua;
+  margin-bottom: 30px;
+}
+
+.header-section .header-img {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header-section .header-info {
+  display: inline-block;
+  vertical-align: top;
+  background-color: coral;
+}
+
+.header-info .header-info-name {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 50px;
+  font-weight: 600;
+}
+
+.header-info .header-info-salary {
+  padding-bottom: 20px;
+}
+.header-info .header-info-salary span {
+  font-weight: 600;
+}
+.header-info .header-info-me {
+  padding-bottom: 20px;
+}
+.header-info .header-info-salary {
+  padding-bottom: 20px;
 }

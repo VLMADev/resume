@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Resume</title>
-    
+
 </head>
 
 <body>
@@ -21,26 +21,37 @@
                 <div class="header-img">
                     <img src="image/images.png" alt="Моё фото">
                 </div>
-                    <div class="header-info">
-                        <article class="header-info-name">
-                            <h2>Матвеев Владислав</h2>
-                        </article>
-                        <section class="header-info-salary">
-                            <p>Желаемая должность:  Web-developer</p>
-                            <p>Желаемый уровеь дохода:  <span>500$</span></p>
-                        </section>
-                        <section class="header-info-me">
-                            <p>Дата рождения:   31-05-1998</p>
-                            <div class="header-info-me-address">
-                                <p>Проживание:  Минск</p>
-                            </div>
-                           
-                        </section>
-                        <section class="header-info-kontacts">
-                            <p>Телефон: +375 (25) 938-13-23</p>
-                            <p>E-mail: angrucat@gmail.com</p>
-                        </section>
-                    </div>
+                <div class="header-info">
+                    <article class="header-info-name">
+                        <h2>Матвеев Владислав</h2>
+                    </article>
+                    <table class="header-info-table">
+                        <tr>
+                            <td>Желаемая должность:</td>
+                            <td class="table-column2">Web-developer</td>
+                        </tr>
+                        <tr>
+                            <td>Желаемый уровеь дохода: </td>
+                            <td class="table-column2"><strong>600$</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Дата рождения: </td>
+                            <td class="table-column2">31-05-1998</td>
+                        </tr>
+                        <tr>
+                            <td>Проживание:</td>
+                            <td class="table-column2">Минск</td>
+                        </tr>
+                        <tr>
+                            <td>Телефон:</td>
+                            <td class="table-column2 tel">+375 (25) 938-13-23</td>
+                        </tr>
+                        <tr>
+                            <td>E-mail:</td>
+                            <td class="table-column2">angrucat@gmail.com</td>
+                        </tr>
+                    </table>
+                </div>
             </section>
         </div>
     </header>
@@ -67,7 +78,7 @@
             <section class="main-about-me">
                 <h2>Обо мне</h2>
                 <article class="main-about-me-text">
-                    Доброго времени и суток, коллеги!
+                    Доброго времени и суток, <em>коллеги</em>!
                     В двух словах о себе: люблю думать, учиться и общаться, работаю много и с удовольствием.
                     В ответ жду интересных проектов, достойной оплаты и возможности роста (з/п и профессионального).
                     Позвоните мне, чтобы обсудить все подробнее и, надеюсь, до встречи на собеседовании!
@@ -76,14 +87,14 @@
 
             <section class="main-education">
                 <h2>Высшее образование</h2>
-                <table>
+                <table class="main-education-table">
                     <tr>
                         <th>Год окончания</th>
                         <th>ВУЗ</th>
                     </tr>
                     <tr>
                         <td>2019</td>
-                        <td><span>Белорусский государственный университет информатики и радиоэлектроники (БГУИР)</span>
+                        <td>Белорусский государственный университет информатики и радиоэлектроники (БГУИР)
                             Факультет: Информационных технологий и управления. Инженер-программист.
                         </td>
                     </tr>
@@ -93,8 +104,8 @@
             <section class="main-language">
                 <h2>Знание языков</h2>
                 <div class="main-language-info">
-                    <p>Русский - Родной</br>
-                        Английский - Pre-Intermediate</p>
+                    <p class="main-language-info-p1">Русский - Родной</p>
+                    <p class="main-language-info-p2"> Английский - Pre-Intermediate</p>
                 </div>
             </section>
         </div>
@@ -102,7 +113,13 @@
     </main>
 
     <footer>
-
+        <div class="contener">
+            <aside class="footer-aside">
+               <a class="footer-aside-but1" href="https://github.com/angrcat"><img src="/image/1-1.png"></a> 
+               <a class="footer-aside-but2" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftMJXrFkFMxdndHQrpCwWztwRVnmLtPqffzJVlnxGhLMbFtGhWDJDQqWhpbxndsWpSJQq"><img src="/image/2-2.png"></a> 
+               <a class="footer-aside-but3" href="https://t.me/ospju"><img src="/image/3-3.png"></a> 
+            </aside>
+        </div>
     </footer>
 </body>
 

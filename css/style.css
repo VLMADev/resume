@@ -50,11 +50,6 @@ img {
   margin: 0 auto;
   padding: 0 20px;
 }
-/* @media (max-width: 1280px) {
-  .contener {
-    max-width: 970px;
-  }
-} */
 @media (max-width: 992px) {
   .contener {
     max-width: 750px;
@@ -83,26 +78,23 @@ img {
     font-size: 16px;
   }
 }
+
+/* Шапка */
 header {
   background: linear-gradient(to top, #ffffff, #352a3b);
 }
-
 header h1 {
   padding: 40px 0px 30px 0px;
 }
-
 .header-section {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
   line-height: 33px;
-  
 }
-
 .header-img {
   display: inline-block;
   vertical-align: top;
   margin-right: 50px;
 }
-
 .header-img img {
   border-radius: 20%;
 }
@@ -118,7 +110,6 @@ header h1 {
     text-align: center;
   }
 }
-
 .header-info {
   display: inline-block;
   vertical-align: top;
@@ -138,7 +129,6 @@ header h1 {
     text-align: center;
   }
 }
-
 .header-info-table {
   border-collapse: collapse;
 }
@@ -151,20 +141,20 @@ header h1 {
 .header-info-table .table-column2 {
   text-align: center;
 }
-
 .table-column-email {
-    color: rgb(23, 32, 167);
+  color: rgb(23, 32, 167);
 }
-
 .header-info-table tr {
   border-bottom: 1px solid rgb(0, 0, 0, 0.5);
 }
+/* _______________________________ */
 
-.main-skils > h2 {
-  color: rgb(90, 90, 90);
-}
+/* Body */
 .main-skils {
   margin-bottom: 30px;
+}
+.main-skils > h2 {
+  color: rgb(90, 90, 90);
 }
 .main-skils-ul {
   display: flex;
@@ -191,7 +181,6 @@ header h1 {
 .main-about-me-text {
   max-width: 730px;
 }
-
 .main-education {
   max-width: 730px;
   margin-bottom: 30px;
@@ -212,15 +201,17 @@ tr:first-child {
 .main-language > h2 {
   color: rgb(90, 90, 90);
 }
+/* _______________________________________ */
+
+/* Подвал */
 footer {
   background: linear-gradient(to bottom, #ffffff, #352a3b);
   padding: 20px;
 }
-
 .footer-aside-but1 {
   margin-right: 50px;
 }
-
 .footer-aside-but2 {
   margin-right: 50px;
 }
+/* _________________________________________ */

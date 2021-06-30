@@ -46,7 +46,7 @@ img {
 }
 
 .contener {
-  max-width: 970px;
+  max-width: 730px;
   margin: 0 auto;
   padding: 0px;
 }
@@ -126,12 +126,12 @@ header h1 {
     margin: 0 auto;
   }
 }
-.header-info-name h2 {
+.header-info h2 {
   font-size: 28px;
   font-weight: 600;
 }
 @media (max-width: 767px) {
-  .header-info-name {
+  .header-info h2 {
     text-align: center;
   }
 }
@@ -149,6 +149,9 @@ header h1 {
 }
 .table-column-email {
   color: rgb(23, 32, 167);
+}
+.table-column-email:hover {
+  color: rgb(255, 0, 0);
 }
 .header-info-table tr {
   border-bottom: 1px solid rgb(0, 0, 0, 0.5);

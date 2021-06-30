@@ -6,16 +6,19 @@
   color: #000;
   font-size: 20px;
 }
+
 ul,
 li {
   list-style: none;
 }
+
 body {
   height: 100%;
   width: 100%;
   font-size: 100%;
   line-height: 1;
 }
+
 a {
   text-decoration: none;
 }
@@ -222,10 +225,10 @@ footer {
   background: linear-gradient(to bottom, #ffffff, #352a3b);
   padding: 20px;
 }
-.footer-aside-but1 {
+.footer-aside-github {
   margin-right: 50px;
 }
-.footer-aside-but2 {
+.footer-aside-telegram {
   margin-right: 50px;
 }
 /* _________________________________________ */

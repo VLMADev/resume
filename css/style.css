@@ -219,6 +219,7 @@ footer {
 /* _________________________________________ */
 
 @media (max-width: 992px) {
+  
   .container {
     max-width: 750px;
   }
@@ -229,6 +230,7 @@ footer {
 }
 
 @media (max-width: 767px) {
+
   .container {
     max-width: none;
     padding: 0 20px;
@@ -275,6 +277,7 @@ footer {
 }
 
 @media (max-width: 501px) {
+
   .container {
     max-width: none;
     padding: 0 10px;
@@ -317,6 +320,7 @@ footer {
 }
 
 @media (max-width: 340px) {
+
   .header-info h2,
   .main-skills h2,
   .main-about-me h2,

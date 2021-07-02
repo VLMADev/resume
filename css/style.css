@@ -328,6 +328,8 @@ footer {
 
   .header-info-item,
   .main-skills-list li,
+  .main-about-me-context p,
+  .main-about-me-context em,
   .header-info-item p,
   .header-info-item a,
   .mine-me-education-item p,
@@ -335,3 +337,4 @@ footer {
     font-size: 16px;
   }
 }
+

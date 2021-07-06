@@ -277,6 +277,7 @@ footer {
   .main-skills-list li {
     padding: 0 0 5px 0;
   }
+
 }
 
 @media (max-width: 501px) {
@@ -320,6 +321,7 @@ footer {
   .footer-context-info {
     justify-content: space-between;
   }
+
 }
 
 @media (max-width: 340px) {
@@ -343,5 +345,6 @@ footer {
   .main-language-info p {
     font-size: 16px;
   }
+  
 }
 

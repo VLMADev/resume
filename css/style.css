@@ -3,8 +3,8 @@
   padding: 0;
   border: 0;
   font-family: "Lato", sans-serif;
-  color: #000;
   font-size: 20px;
+  color: #000;
 }
 
 ul,
@@ -41,7 +41,7 @@ h1 {
 
 h2 {
   font-size: 28px;
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
 }
 
 img {
@@ -51,8 +51,10 @@ img {
 .container {
   max-width: 730px;
   margin: 0 auto;
-  padding: 0px;
+  padding: 0;
 }
+
+
 
 /* header */
 
@@ -61,12 +63,12 @@ header {
 }
 
 header h1 {
-  padding: 40px 0px 30px 0px;
+  padding: 40px 0 30px 0;
 }
 
 .header-section {
   display: flex;
-  margin-bottom: 30px;
+  margin: 0 0 30px 0;
   line-height: 33px;
   align-items: center;
 }
@@ -80,15 +82,15 @@ header h1 {
 }
 
 .header-img img:hover {
-  transition-timing-function: ease-out;
   border-radius: 50%;
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 1);
   transition-duration: 0.8s;
+  transition-timing-function: ease-out;
 }
 
 .header-info {
-  vertical-align: top;
   width: 100%;
+  vertical-align: top;
 }
 
 .header-info-item {
@@ -105,9 +107,9 @@ header h1 {
   color: rgb(255, 0, 0);
 }
 
-/* _______________________________ */
 
-/* Body */
+
+/* MAIN */
 
 .main-skills {
   margin-bottom: 30px;
@@ -118,30 +120,29 @@ header h1 {
   flex-wrap: wrap;
 }
 
-.main-skills-list li {
+.main-skills-list-item {
   font-weight: 600;
   padding: 5px;
+  margin: 0 10px 10px 0;
   border: 1px solid rgba(90, 90, 90, 0.5);
-  border-radius: 20px 0px 20px 0px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  border-radius: 20px 0 20px 0;
   background-color: rgba(175, 175, 175, 0.3);
 }
 
-.main-skills-list li:hover {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+.main-skills-list-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  border-radius: 0 20px 0 20px;
   background-color: rgba(255, 255, 255, 0.3);
   transition-duration: 0.8s;
   transition-timing-function: ease-out;
-  border-radius: 0px 20px 0px 20px;
 }
 
-.main-skills-list li:last-child {
+.main-skills-list-item:last-child {
   margin-right: 0;
 }
 
 .main-about-me {
-  margin-bottom: 30px;
+  margin: 0 0 30px 0;
 }
 
 .main-about-me-context {
@@ -151,7 +152,7 @@ header h1 {
 
 .main-education {
   max-width: 100%;
-  margin-bottom: 30px;
+  margin: 0 0 30px 0;
 }
 
 .mine-me-education-item {
@@ -159,8 +160,12 @@ header h1 {
 }
 
 .mine-me-education-item p {
-  margin: 0px 20px 10px 0px;
+  margin: 0 20px 10px 0;
   text-align: justify;
+}
+
+.mine-me-education-item p:last-child {
+  margin: 0;
 }
 
 .mine-me-education-item .me-education-row-second {
@@ -168,21 +173,17 @@ header h1 {
   margin-right: 118px;
 }
 
-.mine-me-education-item p:last-child {
-  margin: 0;
-}
-
 .main-language {
-  margin-bottom: 30px;
+  margin: 0 0 30px 0;
 }
 
 .main-language-info.text-decoration {
   line-height: 24px;
 }
 
-/* _______________________________________ */
 
-/* Подвал */
+
+/* footer */
 
 footer {
   padding: 20px;
@@ -195,12 +196,12 @@ footer {
 }
 
 .footer-context-info a {
-  margin-right: 40px;
+  margin: 0 40px 0 0;
   padding: 10px;
 }
 
 .footer-context-info a:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .text-decoration {
@@ -216,7 +217,9 @@ footer {
   color: rgb(90, 90, 90);
 }
 
-/* _________________________________________ */
+
+
+/* MEDIA Inquiries */
 
 @media (max-width: 992px) {
   
@@ -225,7 +228,7 @@ footer {
   }
 
   h1 {
-    margin: 0px 0px 30px 0px;
+    margin: 0 0 30px 0;
   }
 }
 
@@ -241,7 +244,7 @@ footer {
   }
 
   .header-img {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .header-info {
@@ -250,11 +253,11 @@ footer {
   }
 
   .header-img {
+    width: 100%;
     max-width: 200px;
     max-height: 200px;
-    width: 100%;
     margin: 0 auto;
-    margin-bottom: 15px;
+    margin: 0 0 15px 0;
   }
 
   .header-info h2 {
@@ -272,7 +275,7 @@ footer {
   }
 
   .main-skills-list li {
-    padding-bottom: 5px;
+    padding: 0 0 5px 0;
   }
 }
 

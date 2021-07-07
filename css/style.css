@@ -23,16 +23,6 @@ a {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: 400;
-}
-
 h1 {
   font-size: 32px;
   text-align: center;
@@ -41,6 +31,10 @@ h1 {
 
 h2 {
   font-size: 28px;
+  margin: 0 0 10px 0;
+}
+h3 {
+  font-size: 25px;
   margin: 0 0 10px 0;
 }
 
@@ -159,12 +153,12 @@ header h1 {
   display: flex;
 }
 
-.me-education-item p {
+.me-education-item span {
   margin: 0 20px 10px 0;
   text-align: justify;
 }
 
-.me-education-item p:last-child {
+.me-education-item span:last-child {
   margin: 0;
 }
 
@@ -177,6 +171,10 @@ header h1 {
   margin: 0 0 30px 0;
 }
 
+.language-info span {
+  display: block;
+}
+
 .language-info.text-decoration {
   line-height: 24px;
 }
@@ -186,22 +184,21 @@ header h1 {
 /* footer */
 
 footer {
-  padding: 20px;
   background: linear-gradient(to bottom, #ffffff, #003e39);
 }
 
 .footer-context-info {
   display: flex;
   align-items: center;
+  height: 100px;
 }
 
-.footer-context-info a {
-  margin: 0 40px 0 0;
-  padding: 10px;
+.list-navigation-links{
+  display: flex;
 }
 
-.footer-context-info a:last-child {
-  margin-right: 0;
+.list-navigation-links li:not(:last-child) {
+  margin-right: 20px;
 }
 
 .text-decoration {
@@ -209,12 +206,9 @@ footer {
   word-spacing: 2px;
 }
 
-.font-weight {
-  font-weight: 600;
-}
-
-.gray-title {
+.section-title {
   color: rgb(90, 90, 90);
+  font-weight: 600;
 }
 
 
@@ -283,10 +277,13 @@ footer {
   }
 
   .skills-list-item,
-  .about-me-context p,
-  .language-info p,
-  .me-education-item p,
-  .my-info-item p,
+  .about-me-context span,
+  .language-info span,
+  .me-education-item span,
+  .me-education-item p, 
+  .me-education-item b,
+  .my-info-item span,
+  .my-info-item b,
   .about-me-context i,
   .my-info-item a {
     font-size: 18px;
@@ -296,17 +293,8 @@ footer {
     line-height: 28px;
   }
 
-  .my-info h2,
-  .skills h2,
-  .about-me h2,
-  .education h2,
-  .language h2,
-  .language h2 {
-    font-size: 26px;
-  }
-
   .about-me-context,
-  .me-education-item p {
+  .me-education-item span {
     text-align: left;
   }
 
@@ -314,8 +302,13 @@ footer {
     margin-right: 108px;
   }
 
-  .footer-context-info {
+  .footer-context-info .list-navigation-links {
     justify-content: space-between;
+    width: 100%;
+  }
+
+  .skills-list-item {
+    padding: 7px;
   }
 
 }
@@ -333,12 +326,15 @@ footer {
 
   .my-info-item,
   .skills-list-item,
-  .about-me-context p,
+  .about-me-context span,
   .about-me-context i,
-  .my-info-item p,
+  .my-info-item span,
   .my-info-item a,
-  .me-education-item p,
-  .language-info p {
+  .my-info-item b,
+  .me-education-item span,
+  .me-education-item p, 
+  .me-education-item b,
+  .language-info span {
     font-size: 16px;
   }
 

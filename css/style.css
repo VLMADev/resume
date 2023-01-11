@@ -73,6 +73,7 @@ header h1 {
 
 .my-photo img {
   border-radius: 20%;
+  max-width: 200px;
 }
 
 .my-photo img:hover {
